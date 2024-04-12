@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+	<link rel="stylesheet" href="../Style/contact.css">
+	<link rel="stylesheet" href="../Style/style.css">
+	<script src="../Logic/dropdown.js"></script>
+</head>
+<body>
+    <div class="img2">
+        <nav class="nav">
+            <ul>
+                <li><button class="navbtn" onclick="Home()"><i class="fa fa-fw fa-home"></i>Home</button></li>
+                <li>
+					<button class="navbtn" id="navbtn" onclick="Licence()" onclick="toggleDropdown(event, 'dropdown1')">Licence<i class="bx bx-chevron-down" id="arrow"></i></button>
+					<div class="dropdown" id="dropdown1">
+					  <a href="./L1.html">L1</a>
+					  <a href="./L2.html">L2</a>
+					  <a href="./L3.html">L3</a>
+					</div>
+				  </li>
+				  <li>
+					<button class="navbtn" id="navbtn" onclick="Master()" onclick="toggleDropdown(event, 'dropdown2')">Master<i class="bx bx-chevron-down" id="arrow"></i></button>
+					<div class="dropdown" id="dropdown2">
+					  <a href="./Master.html">M1</a>
+					  <a href="./Master.html">M2</a>
+					</div>
+				  </li>
+                <li><button class="navbtn" onclick="Contr()">Contribute</button></li>
+                <li><button class="navbtn"><i class="fa fa-fw fa-search"></i></button></li>
+             </ul>
+            </nav>
+         <h1 class="headtxt1">Contact Page</h1>    
+     </div>
+	 <hr class="line">
+
+	<section id="contact">
+		<div class="getin">
+			<br>
+			<h2>Get in touch</h2>
+			<div class="getin-details">
+				<h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+					<path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+					<path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z"/>
+				  </svg>Headquaters</h3>
+				<div>
+					<i class="map"></i>
+					<p>2 Rue Didouche Mourad, Alger Centre 16000</p>
+				</div>
+
+				<h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+				  </svg>Phone</h3>
+				<div>
+					<i class="phone"></i>
+					<p>(+213)793272025<br>(+213)553465385</p>
+				</div>
+
+				<h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
+					<path d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0m1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.7 1.7 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627"/>
+				  </svg>Support</h3>
+				<div>
+					<i class="envelope"></i>
+					<p>chekrouni.derar@univ-alger.dz<br>bessaamohammed@univ-alger.dz</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="form">
+			<h4>Contact Us</h4>
+			<p></p>
+			<div class="form-row">
+				<input type="text" placeholder="Your Name">
+				<input type="email" placeholder="Your Email">
+			</div>
+			<div class="form-col">
+				<input type="text" placeholder="Subject line...">
+			</div>
+			<div class="form-col">
+				<textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+			</div>
+
+			<div class="form-col">
+				<button>Send Message</button>
+			</div>
+		</div>
+	</section>
+	<hr class="gif">
+	<br>
+	<footer class="footer">
+		<br>
+		  <img class="logo" src="../Images/Logo.png" >
+		  <p class="copyright">Made By Cs Students Of Univ-Alger 1<p>
+			
+			<div class="footer-content">
+			  <button class="cbtn" onclick="Contact()">
+			  <div class="svg-wrapper-1">
+				<div class="svg-wrapper">
+				  <svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					width="24"
+					height="24"
+				  >
+					<path fill="none" d="M0 0h24v24H0z"></path>
+					<path
+					  fill="currentColor"
+					  d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+					></path>
+				  </svg>
+				</div>
+			  </div>
+			  <span>Contact</span>
+			</button>
+			  <button class="cbtn" onclick="Feedback()">
+			  <div class="svg-wrapper-1">
+				<div class="svg-wrapper">
+				  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v3c0 .6.4 1 1 1h.5c.2 0 .5-.1.7-.3l3.7-3.7H20c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m-9 11H7V8.8L8.3 6h2L8.9 9H11zm6 0h-4V8.8L14.3 6h2l-1.4 3H17z"/></svg>
+				</div>
+			  </div>
+			  <span>FeedBack</span>
+			</button>
+		  </div>
+	  </footer>
+
+<!-- Dropdown Call Script -->
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	  handleButtonEvents();
+	  handleDropdownEvents();
+	  handleCloseDropdown();
+	});
+</script>
+</body>
+</html>
